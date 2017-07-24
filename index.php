@@ -15,7 +15,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 <div id="main" class="col-mb-12 col-9" role="main">
 	<?php while($this->next()): ?>
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-			<h2 class="post-title" itemprop="name headline"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->title() ?></a></h2>
+			<h2 class="post-title" itemprop="name headline"><a itemtype="url" href="<?php $this->permalink() ?>"><?php $this->sticky(); $this->title() ?></a></h2>
             <div class="post-content" itemprop="articleBody">
     			<?php $this->excerpt('100','...');  ?>
             </div>
