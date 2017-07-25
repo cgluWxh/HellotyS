@@ -14,15 +14,15 @@
         ), '', ' - '); ?><?php $this->options->title(); ?><?php if($this->is('index')): ?> - <?php $this->options->description(); ?><?php endif; ?></title>
 
     <!-- 使用url函数转换相关路径 -->
-    <link rel="stylesheet" href="http://cdn.staticfile.org/normalize/2.1.3/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/normalize/2.1.3/normalize.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
     <link rel="icon" href="favicon.ico" />
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <script src="http://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
-    <script src="http://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
+    <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="https://cdn.staticfile.org/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 
     <!-- 通过自有函数输出HTML头部信息 -->
