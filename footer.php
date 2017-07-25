@@ -18,10 +18,9 @@
     Copyright &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.<br /><a href="//www.miitbeian.gov.cn">湘ICP备16019950号-1</a><br /><a href="<?php $this->options->siteUrl(); ?>">首页</a>    <a href="<?php $this->options->siteUrl(); ?>/links.html">友链</a>    <a href="<?php $this->options->siteUrl(); ?>/about.html">关于</a>
 </footer><!-- end #footer -->
 
-<script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
+<script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
 <script src="<?php $this->options->themeUrl();?>js/jquery.pjax.js"></script>
 <script src="<?php $this->options->themeUrl();?>js/night-mode.js"></script>
-<div style="display:none;"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=750838476&auto=1&height=430"></iframe></div>
 <script>
 $(document).on('pjax:send', function() {
     $(".spinner").css("display", "block");
