@@ -48,7 +48,7 @@
 
 <script>
 	var	playlist = [
-{title:"At The Edge",artist:"千坂",mp3:"/bgm.mp3",cover:"http://p4.music.126.net/JGcyWxeFzA6Y59YD9_fBkQ==/109951162827912088.jpg?param=106y106",},
+{title:"At The Edge",artist:"千坂",mp3:"https://api.zhsrc.cn/bgm.mp3",cover:"http://p4.music.126.net/JGcyWxeFzA6Y59YD9_fBkQ==/109951162827912088.jpg?param=106y106",},
 ];
   var isRotate = false;
   var autoplay = true;
