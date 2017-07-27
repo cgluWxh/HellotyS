@@ -48,12 +48,13 @@
 
 <script>
 	var	playlist = [
-{title:"At The Edge",artist:"千坂",mp3:"https://api.zhsrc.cn/bgm.mp3",cover:"http://p4.music.126.net/JGcyWxeFzA6Y59YD9_fBkQ==/109951162827912088.jpg?param=106y106",},
+{title:"At The Edge",artist:"千坂",mp3:"https://api.zhsrc.cn/bgm.mp3",cover:"https://p4.music.126.net/JGcyWxeFzA6Y59YD9_fBkQ==/109951162827912088.jpg?param=106y106",},
 ];
   var isRotate = false;
   var autoplay = true;
 </script>
 <script src="<?php $this->options->themeUrl();?>js/player.js"></script>
+<script src="<?php $this->options->themeUrl();?>js/prism.js"></script>
 <script>
 
 function bgChange(){
@@ -64,7 +65,7 @@ function bgChange(){
 window.onload = bgChange;
 </script>
 <footer id="footer" role="contentinfo">
-    Copyright &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.<br /><a href="<?php $this->options->siteUrl(); ?>">首页</a>    <a href="<?php $this->options->siteUrl(); ?>/links.html">友链</a>    <a href="<?php $this->options->siteUrl(); ?>/about.html">关于</a>
+    Copyright &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.<br /><a href="//www.miitbeian.gov.cn">湘ICP备16019950号-1</a><br /><a href="<?php $this->options->siteUrl(); ?>">首页</a>    <a href="<?php $this->options->siteUrl(); ?>/links.html">友链</a>    <a href="<?php $this->options->siteUrl(); ?>/about.html">关于</a>
 </footer><!-- end #footer -->
 <script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
 <script src="<?php $this->options->themeUrl();?>js/jquery.pjax.js"></script>
@@ -77,6 +78,11 @@ $(document).on('pjax:send', function() {
 $(document).on('pjax:complete', function() {
     $(".spinner").css("display", "none");
     $(".spinner > div").css("display", "inline-block");
+    if (typeof Prism !== 'undefined') 
+    {
+        Prism.highlightAll(true,null);
+    }
+
 });
 </script>
 <div class="setting_tool iconfont"><a href="#top" title="回到顶部"><i class="fa fa-angle-up"></i></a><a class="set-view-mode" href="javascript:void(0)" title="夜间模式"><i class="fa fa-moon-o"></i></a><a title="回到底部"  href="#bottom"><i class="fa fa-angle-down"></i></a>
