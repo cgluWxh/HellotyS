@@ -48,7 +48,7 @@
 
 <script>
 	var	playlist = [
-{title:"At The Edge",artist:"千坂",mp3:"https://api.zhsrc.cn/bgm.mp3",cover:"https://p4.music.126.net/JGcyWxeFzA6Y59YD9_fBkQ==/109951162827912088.jpg?param=106y106",},
+{title:"At The Edge",artist:"千坂",mp3:"https://www.zhsrc.cn/wp-content/uploads/2017/07/201707280128484.mp3",cover:"https://p4.music.126.net/JGcyWxeFzA6Y59YD9_fBkQ==/109951162827912088.jpg?param=106y106",}
 ];
   var isRotate = false;
   var autoplay = true;
@@ -65,7 +65,7 @@ function bgChange(){
 window.onload = bgChange;
 </script>
 <footer id="footer" role="contentinfo">
-    Copyright &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.<br /><a href="//www.miitbeian.gov.cn">湘ICP备16019950号-1</a><br /><a href="<?php $this->options->siteUrl(); ?>">首页</a>    <a href="<?php $this->options->siteUrl(); ?>/links.html">友链</a>    <a href="<?php $this->options->siteUrl(); ?>/about.html">关于</a>
+    Copyright &copy; <?php echo date('Y'); ?> <a href="<?php $this->options->siteUrl(); ?>"><?php $this->options->title(); ?></a>.<br /><a href="<?php $this->options->siteUrl(); ?>">首页</a>    <a href="<?php $this->options->siteUrl(); ?>/links.html">友链</a>    <a href="<?php $this->options->siteUrl(); ?>/about.html">关于</a>
 </footer><!-- end #footer -->
 <script src="https://apps.bdimg.com/libs/jquery/2.1.1/jquery.js"></script>
 <script src="<?php $this->options->themeUrl();?>js/jquery.pjax.js"></script>

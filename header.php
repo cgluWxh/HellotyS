@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/normalize/2.1.3/normalize.min.css">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('grid.css'); ?>">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('style.css'); ?>">
-    <link rel="icon" href="favicon.ico" />
+    <link rel="icon" href="/favicon.ico" />
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" href="<?php $this->options->themeUrl('player.css'); ?>">
 
