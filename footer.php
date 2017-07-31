@@ -51,7 +51,7 @@
 {title:"At The Edge",artist:"千坂",mp3:"https://www.zhsrc.cn/wp-content/uploads/2017/07/201707280128484.mp3",cover:"https://p4.music.126.net/JGcyWxeFzA6Y59YD9_fBkQ==/109951162827912088.jpg?param=106y106",}
 ];
   var isRotate = false;
-  var autoplay = true;
+  var autoplay = false;
 </script>
 <script src="<?php $this->options->themeUrl();?>js/player.js"></script>
 <script src="<?php $this->options->themeUrl();?>js/prism.js"></script>
