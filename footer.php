@@ -82,7 +82,7 @@ $(document).on('pjax:complete', function() {
     {
         Prism.highlightAll(true,null);
     }
-
+	萌评.运转();
 });
 </script>
 <div class="setting_tool iconfont"><a href="#top" title="回到顶部"><i class="fa fa-angle-up"></i></a><a class="set-view-mode" href="javascript:void(0)" title="夜间模式"><i class="fa fa-moon-o"></i></a><a title="回到底部"  href="#bottom"><i class="fa fa-angle-down"></i></a>
